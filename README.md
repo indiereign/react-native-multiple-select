@@ -103,6 +103,7 @@ class MultiSelectExample extends Component {
           searchInputStyle={{ color: '#CCC' }}
           submitButtonColor="#CCC"
           submitButtonText="Submit"
+          submitButtonTextColor="#FFF"
         />
         <View>
           {this.multiSelect.getSelectedItemsExt(selectedItems)}
@@ -162,6 +163,7 @@ The component takes 3 compulsory props - `items`, `uniqueKey` and `onSelectedIte
 | styleTextTag | No | (Text Style) Style text of the tag |
 | submitButtonColor | No   | (String) Background color for submit button  |
 | submitButtonText | No   | (String) Text displayed on submit button  |
+| submitButtonTextColor | No | (String) Text color for submit button  |
 | tagBorderColor | No      | (String) Border color for each selected item  |
 | tagContainerStyle | No | (Style) Style the container of the tag view |
 | tagRemoveIconColor | No      | (String) Color to be used for the remove icon in selected items list |

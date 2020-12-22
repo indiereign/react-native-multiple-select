@@ -38,6 +38,7 @@ export interface MultiSelectProps {
     hideDropdown?: boolean;
     submitButtonColor?: string;
     submitButtonText?: string;
+    submitButtonTextColor?: string;
     textColor?: string;
     fontSize?: number;
     fixedHeight?: boolean;
